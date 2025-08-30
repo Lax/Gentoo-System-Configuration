@@ -1,0 +1,24 @@
+{
+    "experimental": true,
+    "ipv6": false,
+    "proxies": {
+        "http-proxy": "http://172.17.0.1:64540",
+        "https-proxy": "http://172.17.0.1:64540",
+        "no-proxy": "127.0.0.1/8,172.17.0.1/16,4jg8uyg1.mirror.aliyuncs.com,*.mirrors.aliyun.com,mirrors.aliyun.com,*.mirrors.163.com,mirrors.163.com"
+    },
+    "registry-mirrors": [],
+    "runtimes": {
+        "runc-with-hosts": {
+            "path": "runc",
+            "runtimeArgs": [
+                "--add-host=host.docker.internal:host-gateway"
+            ]
+        },
+        "nvidia": {
+            "args": [],
+            "path": "nvidia-container-runtime"
+        }
+    },
+    "default-runtime": "runc-with-hosts",
+    "storage-driver": "btrfs"
+}
