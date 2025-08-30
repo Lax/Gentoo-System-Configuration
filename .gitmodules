@@ -1,3 +1,6 @@
 [submodule "srv/rtmp-server"]
 	path = srv/rtmp-server
 	url = git@github.com:Lax/nginx-rtmp-hls-docker.git
+[submodule "srv/xray-core"]
+	path = srv/xray-core
+	url = git@github.com:Lax/xray-core-client-service.git
