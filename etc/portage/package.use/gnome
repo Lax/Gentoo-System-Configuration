@@ -1,0 +1,3 @@
+gnome-base/gnome -extras -cups -bluetooth
+
+gnome-base/gnome-extra-apps -games -share -shotwell

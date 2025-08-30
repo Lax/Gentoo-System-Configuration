@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/views/tabs/tab_strip.cc b/chrome/browser/ui/views/tabs/tab_strip.cc
+index 2c94eb0..1f7bde0 100644
+--- a/chrome/browser/ui/views/tabs/tab_strip.cc
++++ b/chrome/browser/ui/views/tabs/tab_strip.cc
+@@ -2149,6 +2149,7 @@ void TabStrip::OnMouseEventInTab(views::View* source,
+ }
+ 
+ void TabStrip::UpdateHoverCard(Tab* tab, HoverCardUpdateType update_type) {
++  return;
+   // Some operations (including e.g. starting a drag) can cause the tab focus
+   // to change at the same time as the tabstrip is starting to animate; the
+   // hover card should not be visible at this time.

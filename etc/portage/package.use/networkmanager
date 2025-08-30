@@ -1,0 +1,8 @@
+net-misc/networkmanager connection-sharing nftables
+#net-wireless/wpa_supplicant ap
+
+net-misc/networkmanager iwd
+net-misc/networkmanager -dhclient -dhcpcd
+
+net-misc/networkmanager -resolvconf
+net-misc/networkmanager policykit

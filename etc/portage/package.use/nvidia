@@ -1,0 +1,4 @@
+x11-drivers/nvidia-drivers kernel-open persistenced tools wayland
+x11-drivers/nvidia-drivers modules-compress -modules-sign
+=x11-drivers/nvidia-drivers-575.64.05 modules-compress -modules-sign
+~x11-drivers/nvidia-drivers-580.76.05 modules-compress -modules-sign

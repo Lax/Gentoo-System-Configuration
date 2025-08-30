@@ -1,0 +1,7 @@
+sys-apps/systemd boot
+sys-kernel/installkernel dracut uki
+sys-apps/systemd boot ukify    # For systemd systems
+sys-kernel/installkernel dracut ukify uki
+
+#sys-kernel/gentoo-kernel-bin generic-uki
+#sys-kernel/installkernel -dracut -ukify -ugrd uki
