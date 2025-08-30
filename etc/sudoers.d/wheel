@@ -1,0 +1,4 @@
+%wheel  ALL=(root) NOPASSWD: /sbin/reboot
+%wheel  ALL=(root) NOPASSWD: /sbin/halt
+%wheel  ALL=(root) NOPASSWD: /sbin/poweroff
+%wheel  ALL=(root) NOPASSWD: /sbin/shutdown
