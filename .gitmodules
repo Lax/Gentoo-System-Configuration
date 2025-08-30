@@ -1,0 +1,3 @@
+[submodule "srv/rtmp-server"]
+	path = srv/rtmp-server
+	url = git@github.com:Lax/nginx-rtmp-hls-docker.git
