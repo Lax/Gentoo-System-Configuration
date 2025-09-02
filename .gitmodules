@@ -4,3 +4,6 @@
 [submodule "srv/xray-core"]
 	path = srv/xray-core
 	url = git@github.com:Lax/xray-core-client-service.git
+[submodule "srv/registry"]
+	path = srv/registry
+	url = git@github.com:Lax/docker-registry-cache.git
