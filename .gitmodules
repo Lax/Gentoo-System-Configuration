@@ -7,3 +7,6 @@
 [submodule "srv/registry"]
 	path = srv/registry
 	url = git@github.com:Lax/docker-registry-cache.git
+[submodule "srv/redroid-service"]
+	path = srv/redroid-service
+	url = git@github.com:Lax/redroid-service.git
