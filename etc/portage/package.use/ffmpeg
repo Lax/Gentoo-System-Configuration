@@ -1,2 +1,4 @@
 media-plugins/gst-plugins-meta ffmpeg
 >=media-video/ffmpeg-7.1.1-r2 opus
+media-video/ffmpeg lame
+media-video/ffmpeg lto
