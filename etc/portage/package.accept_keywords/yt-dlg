@@ -1,0 +1,2 @@
+net-misc/yt-dlg ~amd64
+>=dev-python/PyPubSub-4.0.3 ~amd64

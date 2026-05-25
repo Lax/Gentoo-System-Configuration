@@ -1,0 +1,2 @@
+>=sci-ml/ollama-0.21.2 ~amd64
+>=acct-user/ollama-3 ~amd64

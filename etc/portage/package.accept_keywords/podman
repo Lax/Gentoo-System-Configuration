@@ -1,0 +1,2 @@
+=app-containers/podman-tui-1* ~amd64
+=app-containers/podman-compose-1* ~amd64

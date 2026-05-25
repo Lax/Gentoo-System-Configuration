@@ -1,0 +1,5 @@
+=app-containers/waydroid-1* ~amd64
+=dev-python/pyclip-0* ~amd64
+=dev-python/gbinder-1* ~amd64
+=dev-libs/libglibutil-1* ~amd64
+=dev-libs/gbinder-1* ~amd64
