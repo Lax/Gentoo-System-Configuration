@@ -1,0 +1,135 @@
+Portage 3.0.79 (python 3.14.4-final-0, default/linux/amd64/23.0/desktop/gnome/systemd, gcc-15, glibc-2.43-r2, 7.0.12-Lax x86_64)
+=================================================================
+System uname: Linux-7.0.12-Lax-x86_64-Intel-R-_Core-TM-_Ultra_9_285K-with-glibc2.43
+KiB Mem:    65067652 total,  11633348 free
+KiB Swap:   34049020 total,  17271820 free
+Timestamp of repository gentoo: Thu, 11 Jun 2026 10:15:00 +0000
+Head commit of repository gentoo: 7ca0a3cd37f0312897cd7ab3d9523738917b1bc5
+Head commit of repository edgets: 2c02a089fc208cc51f5bcd79e47bde59162afd23
+
+Head commit of repository gentoo-zh: dd482e1b3a90a9029d00fe3e2551c0be7b907e28
+
+Timestamp of repository guru: Thu, 11 Jun 2026 10:01:25 +0000
+Head commit of repository guru: 4d587257e055c95a498b91569a78b065c35be619
+
+Head commit of repository librewolf: e4a44dc708541a6c678ecac7d97fda6cb408d293
+
+sh bash 5.3_p9-r1
+ld GNU ld (Gentoo 2.46.0 p1) 2.46.0
+ccache version 4.13.5 [enabled]
+app-misc/pax-utils:        1.3.10::gentoo
+app-shells/bash:           5.3_p9-r1::gentoo
+dev-build/autoconf:        2.13-r9::gentoo, 2.72-r7::gentoo
+dev-build/automake:        1.18.1-r1::gentoo
+dev-build/cmake:           4.3.3::gentoo
+dev-build/libtool:         2.5.4::gentoo
+dev-build/make:            4.4.1-r102::gentoo
+dev-build/meson:           1.10.2::gentoo
+dev-lang/perl:             5.42.0-r1::gentoo
+dev-lang/python:           3.12.13_p1::gentoo, 3.13.13_p1::gentoo, 3.14.4_p1::gentoo
+dev-lang/rust-bin:         1.93.1::gentoo
+dev-util/ccache:           4.13.5::gentoo
+llvm-core/clang:           19.1.7-r1::gentoo, 21.1.8::gentoo
+llvm-core/lld:             21.1.8-r1::gentoo
+llvm-core/llvm:            19.1.7::gentoo, 21.1.8::gentoo
+sys-apps/baselayout:       2.18-r1::gentoo
+sys-apps/sandbox:          2.46::gentoo
+sys-apps/systemd:          260.1-r2::gentoo
+sys-devel/binutils:        2.46.0::gentoo
+sys-devel/binutils-config: 5.6::gentoo
+sys-devel/gcc:             15.2.1_p20260214::gentoo
+sys-devel/gcc-config:      2.12.2::gentoo
+sys-kernel/linux-headers:  6.18::gentoo (virtual/os-headers)
+sys-libs/glibc:            2.43-r2::gentoo
+Repositories:
+
+gentoo
+    location: /var/db/repos/gentoo
+    sync-openpgp-key-refresh: false
+    sync-type: rsync
+    sync-uri: rsync://rsync.mirrors.ustc.edu.cn/gentoo-portage
+    priority: -1000
+    volatile: False
+    sync-rsync-verify-max-age: 24
+    sync-rsync-extra-opts: 
+    sync-rsync-verify-metamanifest: no
+    sync-rsync-verify-jobs: 1
+
+edgets
+    location: /var/db/repos/edgets
+    sync-type: git
+    sync-uri: https://github.com/BlueManCZ/edgets.git
+    masters: gentoo
+    volatile: False
+
+gentoo-zh
+    location: /var/db/repos/gentoo-zh
+    sync-type: git
+    sync-uri: https://github.com/microcai/gentoo-zh.git
+    masters: gentoo
+    volatile: False
+
+guru
+    location: /var/db/repos/guru
+    sync-type: git
+    sync-uri: https://github.com/gentoo-mirror/guru.git
+    masters: gentoo
+    volatile: False
+
+librewolf
+    location: /var/db/repos/librewolf
+    sync-type: git
+    sync-uri: https://codeberg.org/librewolf/gentoo.git
+    masters: gentoo
+    volatile: False
+
+Binary Repositories:
+
+gentoobinhost
+    location: /var/cache/binhost/gentoobinhost
+    priority: 9999
+    sync-uri: https://distfiles.gentoo.org/releases/amd64/binpackages/23.0/x86-64
+    verify-signature: True
+
+163
+    location: /var/cache/binhost/163
+    priority: 100
+    sync-uri: https://mirrors.163.com/gentoo/releases/amd64/binpackages/23.0/x86-64
+    verify-signature: True
+
+aliyun
+    location: /var/cache/binhost/aliyun
+    priority: 10
+    sync-uri: https://mirrors.aliyun.com/gentoo/releases/amd64/binpackages/23.0/x86-64
+    verify-signature: True
+
+ACCEPT_KEYWORDS="amd64"
+ACCEPT_LICENSE="@FREE @BINARY-REDISTRIBUTABLE @EULA"
+CBUILD="x86_64-pc-linux-gnu"
+CFLAGS="-march=arrowlake -O3 -pipe -fomit-frame-pointer -mabm -mshstk -mwbnoinvd"
+CHOST="x86_64-pc-linux-gnu"
+CONFIG_PROTECT="/etc /usr/share/config /var/bind"
+CONFIG_PROTECT_MASK="/etc/ca-certificates.conf /etc/dconf /etc/env.d /etc/fonts/fonts.conf /etc/gconf /etc/gentoo-release /etc/revdep-rebuild /etc/sandbox.d"
+CXXFLAGS="-march=arrowlake -O3 -pipe -fomit-frame-pointer -mabm -mshstk -mwbnoinvd"
+DISTDIR="/var/cache/distfiles"
+EMERGE_DEFAULT_OPTS="--jobs=8 --load-average=8 --quiet-build=y"
+ENV_UNSET="CARGO_HOME DBUS_SESSION_BUS_ADDRESS DISPLAY GDK_PIXBUF_MODULE_FILE GOBIN GOPATH PERL5LIB PERL5OPT PERLPREFIX PERL_CORE PERL_MB_OPT PERL_MM_OPT XAUTHORITY XDG_CACHE_HOME XDG_CONFIG_DIRS XDG_CONFIG_HOME XDG_DATA_DIRS XDG_DATA_HOME XDG_RUNTIME_DIR XDG_STATE_HOME"
+FCFLAGS="-march=arrowlake -O3 -pipe -fomit-frame-pointer"
+FEATURES="assume-digests binpkg-docompress binpkg-dostrip binpkg-logs binpkg-multi-instance buildpkg-live ccache compress-build-logs compress-index config-protect-if-modified distlocks ebuild-locks fixlafiles ipc-sandbox merge-sync merge-wait multilib-strict network-sandbox news parallel-fetch parallel-install pid-sandbox pkgdir-index-trusted preserve-libs protect-owned qa-unresolved-soname-deps sandbox strict unknown-features-warn unmerge-logs unmerge-orphans userfetch userpriv usersandbox usersync xattr"
+FFLAGS="-march=arrowlake -O3 -pipe -fomit-frame-pointer"
+GENTOO_MIRRORS="https://mirrors.aliyun.com/gentoo/ https://mirrors.nju.edu.cn/gentoo-zh"
+LANG="C.utf8"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed -Wl,-z,pack-relative-relocs"
+LEX="flex"
+LINGUAS="en en_US zh_CN"
+MAKEOPTS="-j24 -l25"
+PKGDIR="/var/cache/binpkgs"
+PORTAGE_COMPRESS="bzip2"
+PORTAGE_CONFIGROOT="/"
+PORTAGE_RSYNC_OPTS="--recursive --links --safe-links --perms --times --omit-dir-times --compress --force --whole-file --delete --stats --human-readable --timeout=180 --exclude=/distfiles --exclude=/local --exclude=/packages --exclude=/.git"
+PORTAGE_TMPDIR="/var/tmp"
+RUSTFLAGS=" -C target-cpu=native"
+SHELL="/bin/bash"
+USE="X a52 aac acl acpi alsa amd64 avif bluetooth branding bzip2 cairo cdda cdr cet clang colord crypt cuda dbus dist-kernel dri dts dvd dvdr eds encode evo exif fcitx flac gdbm gdk-pixbuf gif gnome gnome-keyring gnome-shell gpm grub gstreamer gtk gui ibus iconv icu introspection ipv6 jemalloc jpeg jpegxl keyring lcms libnotify libtirpc llvm lvm mad mng modules modules-compress mp3 mp4 mpeg multilib nautilus ncurses networkmanager nls nvenc nvidia ogg opengl openmp pam pango pcre pdf pipewire png policykit ppds pulseaudio qml readline screencast sdl seccomp sound spell ssl startup-notification svg sysprof systemd test-rust threads tiff tracker truetype udev udisks unicode upower usb vorbis vpx vulkan wayland webp wxwidgets x264 xattr xcb xft xml xv zlib" ABI_X86="64" ADA_TARGET="gcc_15" APACHE2_MODULES="authn_core authz_core socache_shmcb unixd actions alias auth_basic authn_anon authn_dbm authn_file authz_dbm authz_groupfile authz_host authz_owner authz_user autoindex cache cgi cgid dav dav_fs dav_lock deflate dir env expires ext_filter file_cache filter headers include info log_config logio mime mime_magic negotiation rewrite setenvif speling status unique_id userdir usertrack vhost_alias" CALLIGRA_FEATURES="karbon sheets words" COLLECTD_PLUGINS="df interface irq load memory rrdtool swap syslog" CPU_FLAGS_X86="aes avx avx2 avx_vnni bmi1 bmi2 f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 ssse3 vpclmulqdq" ELIBC="glibc" GPSD_PROTOCOLS="ashtech aivdm earthmate evermore fv18 garmin garmintxt gpsclock greis isync itrax navcom oncore skytraq superstar2 tsip tripmate tnt" GRUB_PLATFORMS="efi-64" GUILE_SINGLE_TARGET="3-0" GUILE_TARGETS="3-0" INPUT_DEVICES="libinput" KERNEL="linux" L10N="en en-US zh zh-CN zh-HK zh-TW ja" LCD_DEVICES="bayrad cfontz glk hd44780 lb216 lcdm001 mtxorb text" LLVM_TARGETS="X86" LUA_SINGLE_TARGET="lua5-1" LUA_TARGETS="lua5-1" OFFICE_IMPLEMENTATION="libreoffice" PHP_TARGETS="php8-3" POSTGRES_TARGETS="postgres17" PYTHON_SINGLE_TARGET="python3_13" PYTHON_TARGETS="python3_13 python3_14" QEMU_SOFTMMU_TARGETS="x86_64" QEMU_USER_TARGETS="x86_64" RUBY_TARGETS="ruby33" VIDEO_CARDS="nvidia proprietary" XTABLES_ADDONS="quota2 psd pknock lscan length2 ipv4options ipp2p iface geoip fuzzy condition tarpit sysrq proto logmark ipmark dhcpmac delude chaos account"
+Unset:  ADDR2LINE, AR, ARFLAGS, AS, ASFLAGS, CC, CCLD, CONFIG_SHELL, CPP, CPPFLAGS, CTARGET, CXX, CXXFILT, ELFEDIT, EXTRA_ECONF, F77FLAGS, FC, GCOV, GPROF, INSTALL_MASK, LC_ALL, LD, LFLAGS, LIBTOOL, MAKE, MAKEFLAGS, NM, OBJCOPY, OBJDUMP, PORTAGE_BINHOST, PORTAGE_BUNZIP2_COMMAND, PORTAGE_COMPRESS_FLAGS, PORTAGE_RSYNC_EXTRA_OPTS, PYTHONPATH, RANLIB, READELF, SIZE, STRINGS, STRIP, YACC, YFLAGS
+
