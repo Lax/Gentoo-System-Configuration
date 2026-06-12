@@ -10,3 +10,6 @@
 [submodule "srv/redroid-service"]
 	path = srv/redroid-service
 	url = git@github.com:Lax/redroid-service.git
+[submodule "home/lax"]
+	path = home/lax
+	url = git@github.com:Lax/Gentoo-User-Configuration.git

@@ -1,0 +1,1 @@
+root=UUID=68a33b3d-0f36-46db-acd9-70306f59a653 ro init=/usr/lib/systemd/systemd dolvm rd.lvm.vg=gentoo quiet loglevel=3 splash nvidia-drm.modeset=1
